@@ -1,0 +1,14 @@
+{
+  "minVersion":"0.4.4",
+  "required": true,
+  "package": "com.takaranoao.bookgenerator.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "MixinEditBookScreen"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

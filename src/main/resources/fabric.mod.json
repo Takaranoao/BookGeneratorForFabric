@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "bookgenerator",
+  "version": "${version}",
+
+  "name": "Book Generator",
+  "description": "Meow!",
+  "authors": [
+    "Takaranoao"
+  ],
+  "contact": {
+    "homepage": "https://takaranoao.net/",
+    "sources": "https://github.com/baolan-zifu/BookGeneratorForFabric"
+  },
+
+  "license": "MIT",
+  "icon": "assets/bookgenerator/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.takaranoao.bookgenerator.BookGenerator"
+    ]
+  },
+  "mixins": [
+    "bookgenerator.mixins.json"
+  ],
+
+  "requires": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
